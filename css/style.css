@@ -1,0 +1,79 @@
+/*first setting*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*content*/
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header{
+    height: 90px;
+    background: pink;
+    margin-top: 15px;
+}
+
+/*main content*/
+
+.box-1{
+    height: 350px;
+    background: #cece00;
+    margin-top: 15px;
+}
+
+.box-2{
+    height: 450px;
+    background: blue;
+    margin-top: 15px;
+}
+
+.sidebar-left {
+    float: left;
+}
+
+.sidebar-right{
+    float: right;
+}
+
+.central-section{
+    float: left;
+}
+
+.up-section{
+    width: 100%;
+    background: rgb(0, 102, 255);
+    height: 65px;
+}
+
+.pad-rlt{
+    margin-top: 10px;
+}
+
+.sidebar-left, .sidebar-right{
+    width: 19%;
+    background:rgb(0, 102, 255) ;
+    height: 360px;
+}
+
+.central-section{
+    width: 60%;
+    background: rgb(0, 102, 255);
+    height: 360px;
+    margin-left: 1%;
+}
+
+/*footer*/
+
+footer{
+    height: 35px;
+    background: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
